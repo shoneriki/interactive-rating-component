@@ -10,6 +10,7 @@
   --medium-grey: hsl(216, 12%, 54%);
   --dark-blue: hsl(213, 19%, 18%);
   --very-dark-blue: hsl(216, 12%, 8%);
+  --orange: hsl(25, 97%, 53%);
 }
 
 body {
@@ -22,12 +23,21 @@ body {
 }
 
 .container {
+  background-color: var(--dark-blue);
   border:1px solid white;
+  border-radius: 16px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   width: 300px;
+  padding: 16px;
+}
+
+img {
+  background-color: white;
+  padding: 8px 8px;
+  border-radius: 100%;
 }
 
 .rating-container{
@@ -38,11 +48,19 @@ body {
 
 .rating-container div {
   border-radius: 100%;
-  padding: 16px;
+  padding: 16px 20px;
   border: 1px solid white;
 }
 
-
+.submit-container{
+  width: 100%;
+  background-color: #fff;
+  border-radius: 16px;
+  color: var(--orange);
+  margin-top: 16px;
+  padding: 8px 16px;
+  text-align: center;
+}
 
 .thankyou {
   display: none;
