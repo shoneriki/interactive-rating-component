@@ -21,27 +21,32 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--very-dark-blue);
+  background-color: black;
   color: var(--white);
   font-family: var(--font-family)
 }
 
 .container {
   background-color: var(--dark-blue);
-  border:1px solid white;
   border-radius: 16px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  width: 316px;
+  width: 348px;
   padding: 16px;
 }
 
+.container p {
+  color:var(--light-grey);
+  padding-bottom: 16px;
+}
+
 img {
-  background-color: white;
+  background-color: var(--medium-grey);
   padding: 8px 8px;
   border-radius: 100%;
+  margin-bottom: 16px;
 }
 
 .rating-container{
@@ -52,15 +57,16 @@ img {
 
 .rating-container div {
   border-radius: 100%;
-  padding: 16px 20px;
+  padding: 12px 16px;
   border: 1px solid white;
+  background-color: var(--medium-grey);
 }
 
 .submit-container{
   width: 100%;
-  background-color: #fff;
+  background-color: var(--orange);
   border-radius: 16px;
-  color: var(--orange);
+  color: white;
   margin-top: 16px;
   padding: 8px 16px;
   text-align: center;
