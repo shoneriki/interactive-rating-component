@@ -21,6 +21,27 @@ body {
   color: var(--white);
 }
 
+.container {
+  border:1px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+}
+
+.rating-container{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.rating-container div {
+  border-radius: 100%;
+  padding: 16px;
+  border: 1px solid white;
+}
+
 
 
 .thankyou {
