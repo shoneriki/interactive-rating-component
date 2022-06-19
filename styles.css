@@ -23,7 +23,8 @@ body {
   align-items: center;
   background-color: black;
   color: var(--white);
-  font-family: var(--font-family)
+  font-family: var(--font-family);
+  position: relative;
 }
 
 .container {
@@ -58,7 +59,6 @@ img {
 .rating-container div {
   border-radius: 100%;
   padding: 12px 16px;
-  border: 1px solid white;
   background-color: var(--medium-grey);
 }
 
@@ -87,8 +87,9 @@ img {
 .attribution {
   font-size: 11px;
   text-align: center;
-  position: fixed;
-  bottom: 0;
+  margin-top: 32px;
+  position: absolute;
+  bottom: -16px;
 }
 
 .attribution a {
