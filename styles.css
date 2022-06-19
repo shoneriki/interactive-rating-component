@@ -57,8 +57,13 @@ img {
 }
 
 .rating-container div {
-  border-radius: 100%;
-  padding: 12px 16px;
+  border-radius: 50%;
+  display:flex;
+  justify-content: center;
+  align-content: center;
+  padding: 12px;
+  width:40px;
+  height: 40px;
   background-color: var(--medium-grey);
 }
 
